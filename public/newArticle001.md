@@ -1,11 +1,11 @@
 ---
 title: Node.js Test Runnerでモジュールのモックをしたい
 tags:
-  - Node.js
   - JavaScript
+  - Node.js
 private: false
-updated_at: ""
-id: null
+updated_at: '2023-07-13T00:28:51+09:00'
+id: 7145f083828df7f0e6e4
 organization_url_name: qiita-inc
 ---
 
