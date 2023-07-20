@@ -9,6 +9,7 @@ private: false
 updated_at: '2023-05-16T15:31:36+09:00'
 id: e4aca79fbf4eff72a981
 organization_url_name: qiita-inc
+slide: false
 ---
 この記事は [【RubyKaigi 2023連動イベント】みんなでRubyの知見を共有しよう - Qiita](https://qiita.com/official-events/4d2a9eed42dbe0a4af21) の参加記事です。
 
