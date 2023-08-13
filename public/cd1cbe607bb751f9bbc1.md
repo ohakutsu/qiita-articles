@@ -4,11 +4,12 @@ tags:
   - font
   - fontforge
 private: false
-updated_at: '2023-07-21T21:24:56+09:00'
+updated_at: "2023-07-21T21:24:56+09:00"
 id: cd1cbe607bb751f9bbc1
 organization_url_name: qiita-inc
 slide: false
 ---
+
 この記事は [お題は不問！Qiita Engineer Festa 2023で記事投稿！ - Qiita](https://qiita.com/official-events/4f3daca63fb78f16df0b) の参加記事です。
 
 https://qiita.com/official-events/4f3daca63fb78f16df0b
@@ -228,7 +229,7 @@ if __name__ == "__main__":
 コピー元のフォントのグリフを`selection.select()`で選択するときに詰まったのが、
 
 - FontForgeで開いて一番上と一番下のUnicodeコードポイントをrangesで選択していたが、一部選択されていないものがあった
-    - `selection.select(('ranges', 'unicode'), 0x3001, 0x8e0a)`でだめだった
+  - `selection.select(('ranges', 'unicode'), 0x3001, 0x8e0a)`でだめだった
 
 で、途中CIDを選択するように変えたりしましたが、今後とあるフォント側のアップデートでCIDが変わると大変なことになりそうだったので、
 最終的にはUnicodeコードポイントを細かい単位でrangesで選択するようにしました。
