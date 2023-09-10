@@ -3,7 +3,7 @@ title: 私が普段使っているガジェットを紹介
 tags:
   - ガジェット
 private: false
-updated_at: "2023-08-13T13:57:59+09:00"
+updated_at: '2023-08-18T12:08:31+09:00'
 id: 235cedd97d26beb1136b
 organization_url_name: qiita-inc
 slide: false
@@ -16,7 +16,7 @@ https://qiita.com/official-events/8644e9719b0040cc1817
 ## はじめに
 
 私が普段使っているキーボード、マウスを紹介します。
-といいつつ、目新しいものは使っていないです...
+といいつつ、目新しいものは使っていないのであまり参考にならないかもです...
 
 ## キーボード
 
