@@ -6,6 +6,7 @@
     "prettier": ">=3.1.0"
   },
   "scripts": {
-    "fix": "prettier --write ."
+    "lint": "prettier --check .",
+    "lint:fix": "prettier --write ."
   }
 }
