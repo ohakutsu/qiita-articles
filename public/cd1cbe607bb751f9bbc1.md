@@ -4,7 +4,7 @@ tags:
   - font
   - fontforge
 private: false
-updated_at: '2023-08-13T13:05:44+09:00'
+updated_at: "2023-08-13T13:05:44+09:00"
 id: cd1cbe607bb751f9bbc1
 organization_url_name: qiita-inc
 slide: false

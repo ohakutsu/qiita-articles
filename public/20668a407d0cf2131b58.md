@@ -3,7 +3,7 @@ title: GitHub ActionsのReusable workflowを試す
 tags:
   - GitHubActions
 private: false
-updated_at: '2023-07-21T17:18:09+09:00'
+updated_at: "2023-07-21T17:18:09+09:00"
 id: 20668a407d0cf2131b58
 organization_url_name: qiita-inc
 slide: false
