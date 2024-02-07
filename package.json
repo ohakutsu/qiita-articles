@@ -3,7 +3,7 @@
   "private": true,
   "devDependencies": {
     "@qiita/qiita-cli": "^1.4.0",
-    "prettier": ">=3.2.4"
+    "prettier": ">=3.2.5"
   },
   "scripts": {
     "lint": "prettier --check .",
