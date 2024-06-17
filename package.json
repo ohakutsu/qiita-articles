@@ -2,7 +2,7 @@
   "name": "qiita-articles",
   "private": true,
   "devDependencies": {
-    "@qiita/qiita-cli": "^1.4.1",
+    "@qiita/qiita-cli": "^1.4.2",
     "prettier": ">=3.3.2"
   },
   "scripts": {
