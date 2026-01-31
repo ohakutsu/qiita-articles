@@ -3,7 +3,7 @@ title: BigQueryのデータ分析で変数を使うと便利
 tags:
   - BigQuery
 private: false
-updated_at: '2025-09-29T19:56:59+09:00'
+updated_at: '2026-01-31T19:03:19+09:00'
 id: dba336c75433ebbceba5
 organization_url_name: qiita-inc
 slide: false
