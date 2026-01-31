@@ -9,6 +9,7 @@ organization_url_name: qiita-inc
 slide: false
 ignorePublish: false
 ---
+
 BigQueryを使ってユーザーの分析などをよくしているのですが、クエリを書く際に特定の日付やユーザーのidなどを扱うことはしばしばあると思います。
 その際に、普段コードを書くときみたいに定数を使うことでクエリがスッキリするので紹介します。
 

@@ -11,6 +11,7 @@ organization_url_name: qiita-inc
 slide: false
 ignorePublish: false
 ---
+
 ## はじめに
 
 とあるタイミングで、Playwrightを使ってChrome拡張機能のE2Eテストを実装しました。
@@ -28,9 +29,9 @@ https://playwright.dev/docs/chrome-extensions
 Chrome拡張機能をロードした環境を用意するための[fixture](https://playwright.dev/docs/test-fixtures)を作成します。
 
 1. `context` fixture
-    - テスト対象のChrome拡張機能をロードしたブラウザコンテキストを作成しておく
+   - テスト対象のChrome拡張機能をロードしたブラウザコンテキストを作成しておく
 2. `extensionId` fixture
-    - 拡張機能のポップアップなどにアクセスするためのIDを取得できるようにしておく
+   - 拡張機能のポップアップなどにアクセスするためのIDを取得できるようにしておく
 
 ```typescript:fixtures.ts
 import { test as base, chromium, type BrowserContext } from '@playwright/test';
@@ -125,7 +126,7 @@ test('popup page', async ({ page, extensionUrl }) => {
 async function getActiveTab() {
   const tabs = await chrome.tabs.query({
     active: true,
-    currentWindow: true
+    currentWindow: true,
   });
 
   return tabs[0];
@@ -142,17 +143,17 @@ async function getActiveTab() {
 ```typescript
 async function getActiveTab() {
   const urlParams = new URLSearchParams(window.location.search);
-  const activeTabUrlForTest = urlParams.get("test-active-tab-url");
+  const activeTabUrlForTest = urlParams.get('test-active-tab-url');
   if (activeTabUrlForTest) {
     const tabs = await chrome.tabs.query({
-      url: activeTabUrlForTest
+      url: activeTabUrlForTest,
     });
     return tabs[0];
   }
 
   const tabs = await chrome.tabs.query({
     active: true,
-    currentWindow: true
+    currentWindow: true,
   });
 
   return tabs[0];
