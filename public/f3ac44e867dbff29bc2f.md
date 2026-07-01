@@ -11,6 +11,7 @@ organization_url_name: qiita-inc
 slide: false
 ignorePublish: false
 ---
+
 最近Claude CodeでMarkdownファイルを書いたり読んだりする機会が増えてきました。
 そんな中で、cmux markdownコマンドを使うと手元でサッとプレビューできて便利だったので、紹介します。
 
@@ -50,7 +51,6 @@ $ cmux markdown path/to/article.md
 ```
 
 ![image.png](https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/352836/764c27f8-c986-470f-9280-10a0839e1965.png)
-
 
 ## Claude Codeのrulesと組み合わせて自動プレビューさせる
 
