@@ -10,6 +10,8 @@ id: d9ec356ce9bec4e83ef1
 organization_url_name: qiita-inc
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 ## 記事投稿シリーズについて
 

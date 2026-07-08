@@ -8,6 +8,8 @@ id: dba336c75433ebbceba5
 organization_url_name: qiita-inc
 slide: false
 ignorePublish: false
+posting_campaign_uuid: null
+agreed_posting_campaign_term: false
 ---
 
 BigQueryを使ってユーザーの分析などをよくしているのですが、クエリを書く際に特定の日付やユーザーのidなどを扱うことはしばしばあると思います。
