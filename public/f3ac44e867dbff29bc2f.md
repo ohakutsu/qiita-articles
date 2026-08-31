@@ -10,8 +10,8 @@ id: f3ac44e867dbff29bc2f
 organization_url_name: qiita-inc
 slide: false
 ignorePublish: false
-posting_campaign_uuid: null
-agreed_posting_campaign_term: false
+posting_campaign_uuid: fedb44eff4b119730a79
+agreed_posting_campaign_term: true
 ---
 
 最近Claude CodeでMarkdownファイルを書いたり読んだりする機会が増えてきました。

@@ -9,8 +9,8 @@ id: cd1cbe607bb751f9bbc1
 organization_url_name: qiita-inc
 slide: false
 ignorePublish: false
-posting_campaign_uuid: null
-agreed_posting_campaign_term: false
+posting_campaign_uuid: 4f3daca63fb78f16df0b
+agreed_posting_campaign_term: true
 ---
 
 この記事は [お題は不問！Qiita Engineer Festa 2023で記事投稿！ - Qiita](https://qiita.com/official-events/4f3daca63fb78f16df0b) の参加記事です。
