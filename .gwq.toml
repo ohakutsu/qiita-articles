@@ -1,0 +1,4 @@
+[[repository_settings]]
+repository = "~/ghq/github.com/ohakutsu/qiita-articles"
+copy_files = []
+setup_commands = ["./devtools/scripts/setup-development-environment.sh"]
